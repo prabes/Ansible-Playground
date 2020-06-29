@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+    - name: test connection
+      ping:
+    - name: check uptime of server
+      shell: uptime
